@@ -25,6 +25,11 @@ button {
   cursor: pointer;
 }
 
+/* img {
+   display: block;
+   max-width: 100%;
+  height: auto;
+} */
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -47,6 +52,10 @@ body {
   text-decoration: none;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* ----------------Header-------------------- */
 /* ----------------Logo webstidio------------ */
 .logo {
@@ -131,9 +140,13 @@ body {
 
 /*---------------- Hero------------------------ */
 .hero {
+  max-width: 1600px;
   background-color: #2f303a;
 }
 .hero-title {
+  display: block;
+  max-width: 696px;
+  padding-top: 200px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -141,6 +154,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin: auto;
 
   color: #ffffff;
 }
@@ -156,6 +170,10 @@ body {
   border-radius: 4px;
   cursor: pointer;
   padding: 10px 32px;
+  margin-top: 30px;
+  margin-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
 
   font-family: inherit;
   font-weight: bold;
