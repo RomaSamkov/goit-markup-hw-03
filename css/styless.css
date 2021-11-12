@@ -5,6 +5,34 @@
   --primery-white-color: #ffffff;
   --background-color-battons: #f5f4fa;
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: o;
+}
+
+ul {
+  margin: o;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
   color: var(--primery-text-color);
   background-color: var(--primery-white-color);
@@ -33,6 +61,10 @@ body {
   font-family: Raleway, sans-serif;
 }
 /*------------------ Site nav---------------- */
+.site-nav {
+  display: flex;
+}
+
 .site-nav .link {
   color: var(--title-text-color);
 
