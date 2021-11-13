@@ -31,7 +31,7 @@ img {
   height: auto;
 }
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -139,7 +139,8 @@ body {
 
 /*---------------- Hero------------------------ */
 .hero {
-  max-width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
 }
 .hero-title {
@@ -294,7 +295,18 @@ body {
 /*----------------Footer------------------------ */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
+}
+.address-container {
+  margin-top: 20px;
+}
+.footer-mail {
+  margin-top: 9px;
+}
+.footer-phone {
+  margin-top: 9px;
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
