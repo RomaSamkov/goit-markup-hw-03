@@ -188,6 +188,9 @@ body {
   background-color: #188ce8;
 }
 /* --------------Студия main section----------- */
+.benefits {
+  padding-bottom: 0;
+}
 
 .subject-list {
   display: flex;
@@ -261,6 +264,7 @@ body {
 }
 .team-members {
   margin-right: 30px;
+  background: var(--primery-white-color);
 }
 .team-members:nth-child(4n) {
   margin-right: 0px;
@@ -287,8 +291,11 @@ body {
   text-align: center;
 }
 .team-text {
-  margin-top: 30px;
+  padding-top: 30px;
   padding-bottom: 30px;
+}
+.team {
+  background: var(--background-color-battons);
 }
 /*----------------Footer------------------------ */
 
@@ -301,12 +308,12 @@ body {
   margin-top: 20px;
 }
 .footer-mail {
-  margin-top: 9px;
+  margin-bottom: 9px;
 }
-.footer-phone {
-  margin-top: 9px;
-}
+
 .footer-logo {
+  display: block;
+  margin-bottom: 20px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -326,6 +333,12 @@ body {
   letter-spacing: 0.03em;
 
   color: #ffffff;
+}
+.address-list {
+  margin-bottom: 9px;
+}
+.footer-contact:not(:last-child) {
+  margin-bottom: 9px;
 }
 .footer-list .footer-contact {
   color: var(--primery-text-color);
@@ -410,6 +423,8 @@ body {
 .card-text {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
